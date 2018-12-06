@@ -1,0 +1,11 @@
+---
+applications:
+- name: product
+  memory: 1024M
+  instances: 1
+  path: ./target/demo-0.0.1-SNAPSHOT.jar
+  buildpack: https://github.com/cloudfoundry/java-buildpack.git
+  routes:
+  - route: product_wipro_keerthi.apps.dev.pcf-aws.com
+  services:
+     - myservice
