@@ -1,6 +1,6 @@
 spring:
     datasource:
-      url: jdbc:mysql://18.191.165.251:3306/suds
+      url: jdbc:mysql://172.31.11.56:3306/suds
       username: root
       password: password
   jpa:
