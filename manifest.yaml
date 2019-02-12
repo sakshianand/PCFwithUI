@@ -6,6 +6,6 @@ applications:
   path: ./target/demo-0.0.1-SNAPSHOT.war
   buildpack: https://github.com/cloudfoundry/java-buildpack.git
   routes:
-  - route: product-wipro-rig.apps.dev.pcf-aws.com
+  - route: product-wipro-rig.cfapps.io
   services:
      - myservice
